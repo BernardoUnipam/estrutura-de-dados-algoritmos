@@ -1,5 +1,3 @@
-package codigo3;
-
 public class Lista<T> {
     private No<T> primeiroNo;
     private No<T> ultimoNo;

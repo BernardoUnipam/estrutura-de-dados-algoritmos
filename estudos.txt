@@ -1,6 +1,0 @@
-AUlA SUPER HIPER MEGA IMPORTANTE 
-
-lista normal tinha registro só pra frente -- 1 ponteiro
-lista duplamente encadeada tem registro pra frente e pra trás -- 2 ponteiros
-
-
