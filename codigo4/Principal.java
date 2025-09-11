@@ -1,5 +1,3 @@
-package codigo4;
-
 public class Principal {
     public static void main(String[] args) {
         Pilha<String> Pilha = new Pilha<String>("Times de futebol");

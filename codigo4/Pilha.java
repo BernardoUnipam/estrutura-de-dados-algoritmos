@@ -1,5 +1,3 @@
-package codigo4;
-
 public class Pilha<T> {
     private No<T> Topo;
     private String nomePilha;
