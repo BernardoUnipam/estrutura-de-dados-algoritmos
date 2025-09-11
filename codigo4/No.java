@@ -1,5 +1,3 @@
-package codigo4;
-
 public class No<T>{
     private T dado;
     private No<T> nextNo;
