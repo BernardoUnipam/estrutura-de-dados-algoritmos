@@ -38,7 +38,7 @@ public class ListaDupla<T> {
         tamanho++;
     }
 
-    public void addFinal() {
+    public void addFinal(T dado) {
         NoDuplo<T> novoNo = new NoDuplo<T>(dado);
         if (ultimoNo == null) {
             primeiroNo = ultimoNo = novoNo;

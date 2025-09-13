@@ -1,6 +1,6 @@
 package aulaFila;
 
-public class Fila {
+public class Fila<T> {
     private No<T> primeiroNo;
     private No<T> ultimoNo;
     private String nomeFila;
@@ -27,10 +27,20 @@ public class Fila {
         }
     }
 
-    -- desenfileirar lista
+    // desenfileirar
     public T desenfileirar() {
         if (primeiroNo == null) {
-            System.out.println("A fila está vazia!");
-            return null;    
+            System.out.println("A lista " + nomeFila + " está vazia");
+            return null;
+        } else {
+            T dadoTemp = primeiroNo.getDado();
+            primeiroNo = primeiroNo.getNextNo();
+
+            if(primeiroNo == null) {
+                ultimoNo = null;
+            }
+
+            return dadoTemp;
         }
+    }
 }

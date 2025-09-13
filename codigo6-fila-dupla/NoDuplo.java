@@ -45,6 +45,6 @@ public class NoDuplo<T> {
 
     @Override
     public String toString() {
-        return "{ Indice: " + getIndice() + "Dado: " + getdado() + "}";
+        return "{ Indice: " + getIndice() + "Dado: " + getDado() + "}";
     }
 }
